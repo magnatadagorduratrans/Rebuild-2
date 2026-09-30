@@ -1,23 +1,3 @@
-# ZWhisper Rebuilt
-
-Reconstruction focused on BLE discovery/diagnostics from the supplied APK.
-
-## Included
-- Android 8+ / target SDK 35
-- Android 12+ BLUETOOTH_SCAN / CONNECT runtime permissions
-- All BLE mode with null ScanFilter
-- Fast Pair mode filtered to FE2C
-- LOW_LATENCY + reportDelay=0
-- RSSI, address, local name and FE2C service data display
-- Scan failure diagnostics
-
-## Safety scope
-This reconstruction intentionally does not implement an active CVE exploitation routine. It is a scanner/diagnostic implementation.
-
-## Build
-Open in Android Studio with an Android SDK installed (API 35) and build the debug APK.
-
-
 # ZWhisper Rebuilt — GitHub Actions
 
 Este projeto foi preparado para gerar automaticamente um APK debug pelo GitHub Actions.
